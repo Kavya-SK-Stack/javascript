@@ -18,12 +18,7 @@ function sumofnumbers(num1,num2,num3,num4){
 }
 sumofnumbers(10,5,10,5,)
 
-let a = 10
-let b = 50
-function allvalues(){
-    console.log(a+b)
-}
-allvalues()
+
 
 function allvalues(num1,num2){
     console.log(num1+num2)
@@ -54,3 +49,49 @@ while(k<9){
 
 }
 
+
+
+
+function sumofvalue(num1,num2,num3){
+    console.log(num1*num2/num3)
+}
+sumofvalue(5,4,4)
+
+let H = 0
+while(H<=5){
+    console.log("while",H)
+    H++
+}
+
+
+let K = 1
+while("K<8"){
+    console.log("while",K)
+    K++
+}
+
+let O = 1
+do{
+    console.log(O)
+    O++
+}while(O<=5)
+
+let arr = [1,2,3,4]
+console.log(arr)
+
+arr.push(5,6,7,8,9)
+console.log(arr)
+
+arr.pop()
+console.log(arr)
+
+arr.unshift(-1,0)
+console.log(arr)
+arr.shift()
+console.log(arr)
+
+arr.splice(6,3,6)
+console.log(arr)
+
+arr.slice(1,-5)
+console.log(arr)
